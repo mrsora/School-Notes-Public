@@ -95,7 +95,7 @@ Features that make it faster, and more responsive (lower latency) is:
 \begin{itemize}
   \item \textbf{Pipelining} - Allows multiples requests to be handled at the same time instead of waiting for a response before continuing. 
   \item \textbf{Push} - Allow the servers to look into the future and sends clients content before they even request it 
-  \item \textbf{Multiplexing} - Allows different types of requests to be send back to the client at the same time via interleaving.
+  \item \textbf{Multiplexing} - Allows different types of requests to be sent back to the client at the same time via interleaving.
 \end{itemize}
 
 This avoids using multiple TCP connection to a single server thus reducing the number of high-latency TCP and TLS handshakes.
